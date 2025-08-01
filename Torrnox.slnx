@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src\Torrnox.Core\Torrnox.Core.csproj" />
+    <Project Path="src\Torrnox.Infrastructure\Torrnox.Infrastructure.csproj" />
+    <Project Path="src\Torrnox.Web\Torrnox.Web.csproj" />
+  </Folder>
+</Solution>
