@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/Torrnox.Application/Torrnox.Application.csproj" />
+    <Project Path="src/Torrnox.Migrations.Npgsql/Torrnox.Migrations.Npgsql.csproj" />
+    <Project Path="src/Torrnox.Migrations.Sqlite/Torrnox.Migrations.Sqlite.csproj" />
     <Project Path="src\Torrnox.Core\Torrnox.Core.csproj" />
     <Project Path="src\Torrnox.Infrastructure\Torrnox.Infrastructure.csproj" />
     <Project Path="src\Torrnox.Web\Torrnox.Web.csproj" />

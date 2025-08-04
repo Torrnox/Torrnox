@@ -1,12 +1,13 @@
-using Microsoft.EntityFrameworkCore;
+using System;
+using Torrnox.Application.Interfaces;
 using Torrnox.Core.Entities;
-using Torrnox.Core.Interfaces;
+using Torrnox.Infrastructure.Data;
 
 namespace Torrnox.Infrastructure.Repositories;
 
-public sealed class MovieRepository : RepositoryBase<Movie>, IMovieRepository
+public sealed class MovieRepository : Repository<MovieEntity>, IMovieRepository
 {
-    public MovieRepository(DbContext dbContext) : base(dbContext)
+    public MovieRepository(EntityDataContext dataContext) : base(dataContext)
     {
     }
 }

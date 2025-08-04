@@ -7,8 +7,4 @@
     <LangVersion>default</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="LightResults" Version="9.0.5" />
-  </ItemGroup>
-
 </Project>
